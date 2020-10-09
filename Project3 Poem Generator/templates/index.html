@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Poem Generator | by Simran</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+    <header>
+        <h1>Poem Generator</h1>
+        <h2>Here is your generated poem in style of "The Shakespeare" with word of your choice!</h2>
+    </header>
+    <main>
+        <aside class="left">
+            <img src="https://w8.foxdsgn.com/vestry/wp-content/uploads/2019/11/aboutimg2.jpg" />
+            <img src="https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/healing-power-poetry-typewriter-colorful-bird-1018956380.jpg?itok=_0X4gVdQ">
+            <img src="https://www.stylist.co.uk/images/app/uploads/2019/04/21103217/poetry-quotes-1680x1120.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress"/>
+            <img src="https://images.unsplash.com/photo-1473186505569-9c61870c11f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+        </aside>
+        <section class="right body-class">
+            <div class="form-class">
+                <form action="/poemgenerator" method="post">
+                    <div class="inner-form">
+                        <div>
+                            <label for="inputs">
+                                Just type a word or phrase or group of certain words and see the magic happen!
+                            </label>
+                        </div>
+                        <input type="text" name="inputs" id="inputs" minlength="4">
+                    </div>
+                    <div class="inner-form">
+                        <div>
+                            <label for="no_of_chars">Enter No. of Characters for Poem</label>
+                        </div>
+                        <input type="number" name="no_of_chars" id="no_of_chars" min="10">
+                    </div>
+                    <div class="inner-form">
+                        <input type="submit" value="Generate">
+                    </div>
+                </form>
+            </div>
+            <div class="para">
+                <p>
+                    Life is actually beautiful.
+                    We just complicate it.
+                    We run after success, jobs. Surely man wants survival.
+                    But, do we know, what is difference between wants and needs?
+                    Firstly, we need to fulfill our physiological needs like clothes, shelter and hunger.
+                    Then, we move onto safety. Now that's what man needs.
+                    But, after we have this, we want to socialize, then story doesn't stop here.
+                    We now want recognition in society. Then, we want to fulfill aesthetic and cognitive needs.
+                    In short, it's bottomless pit. In good old days, we wanted to become a good human.
+                    Parents wanted that their children should be well behaved.
+                    During marriage people just asked if girl or boy is good?
+                    But now we ask, "How much you earn?".
+                    Things change...
+                    <br><br>
+                    Solution of all problems in life is: Be spiritual or deep dive into poetry and be a poetic saint.
+                    <br>
+                    Shakespeare was one of that kind.
+                    <br>
+                    Let's see how Shakespeare's legendary work combines with small
+                    concept of Probability and I made something a little amazing out of it.
+                    <br><br>
+                    <strong>NOTE:</strong> For better results make sure you write minimum 4 character.
+                    Though blank 4 characters will also be accepted. Surely curious minds will try that as well.
+                    <br>
+                    For long no. of characters, for instance: 1,00,000 it will take some time.
+                    <br><br>
+                    <strong>SUGGESTION:</strong> Try no. of characters as 2000 or more.
+                </p>
+
+                <br><br>
+                <h3>
+                    About William Shakespeare
+                </h3>
+                <p>
+                    <br>
+                    William Shakespeare was born on April 23, 1564, in Stratford-upon-Avon. The son of John Shakespeare and Mary Arden, he was probably educated at the King Edward VI Grammar School in Stratford, where he learned Latin and a little Greek and read the Roman dramatists. At eighteen, he married Anne Hathaway, a woman seven or eight years his senior. Together they raised two daughters: Susanna, who was born in 1583, and Judith (whose twin brother died in boyhood), born in 1585.
+                    <br><br>
+                    Little is known about Shakespeare's activities between 1585 and 1592. Robert Greene's A Groatsworth of Wit alludes to him as an actor and playwright. Shakespeare may have taught at school during this period, but it seems more probable that shortly after 1585 he went to London to begin his apprenticeship as an actor. Due to the plague, the London theaters were often closed between June 1592 and April 1594. During that period, Shakespeare probably had some income from his patron, Henry Wriothesley, earl of Southampton, to whom he dedicated his first two poems, Venus and Adonis (1593) and The Rape of Lucrece (1594). The former was a long narrative poem depicting the rejection of Venus by Adonis, his death, and the consequent disappearance of beauty from the world. Despite conservative objections to the poem's glorification of sensuality, it was immensely popular and was reprinted six times during the nine years following its publication.
+                    <br><br>
+                    In 1594, Shakespeare joined the Lord Chamberlain's company of actors, the most popular of the companies acting at Court. In 1599 Shakespeare joined a group of Chamberlain's Men that would form a syndicate to build and operate a new playhouse: the Globe, which became the most famous theater of its time. With his share of the income from the Globe, Shakespeare was able to purchase New Place, his home in Stratford.
+                    <br><br>
+                    While Shakespeare was regarded as the foremost dramatist of his time, evidence indicates that both he and his contemporaries looked to poetry, not playwriting, for enduring fame. Shakespeare's sonnets were composed between 1593 and 1601, though not published until 1609. That edition, The Sonnets of Shakespeare, consists of 154 sonnets, all written in the form of three quatrains and a couplet that is now recognized as Shakespearean. The sonnets fall into two groups: sonnets 1-126, addressed to a beloved friend, a handsome and noble young man, and sonnets 127-152, to a malignant but fascinating "Dark Lady," who the poet loves in spite of himself. Nearly all of Shakespeare's sonnets examine the inevitable decay of time, and the immortalization of beauty and love in poetry.
+                    <br><br>
+                    In his poems and plays, Shakespeare invented thousands of words, often combining or contorting Latin, French, and native roots. His impressive expansion of the English language, according to the Oxford English Dictionary, includes such words as: arch-villain, birthplace, bloodsucking, courtship, dewdrop, downstairs, fanged, heartsore, hunchbacked, leapfrog, misquote, pageantry, radiance, schoolboy, stillborn, watchdog, and zany.
+                    <br><br>
+                    Shakespeare wrote more than thirty plays. These are usually divided into four categories: histories, comedies, tragedies, and romances. His earliest plays were primarily comedies and histories such as Henry VI and The Comedy of Errors, but in 1596, Shakespeare wrote Romeo and Juliet, his second tragedy, and over the next dozen years he would return to the form, writing the plays for which he is now best known: Julius Caesar, Hamlet, Othello, King Lear, Macbeth, and Antony and Cleopatra. In his final years, Shakespeare turned to the romantic with Cymbeline, A Winter's Tale, and The Tempest.
+                    <br><br>
+                    Only eighteen of Shakespeare's plays were published separately in quarto editions during his lifetime; a complete collection of his works did not appear until the publication of the First Folio in 1623, several years after his death. Nonetheless, his contemporaries recognized Shakespeare's achievements. Francis Meres cited "honey-tongued" Shakespeare for his plays and poems in 1598, and the Chamberlain's Men rose to become the leading dramatic company in London, installed as members of the royal household in 1603.
+                    <br><br>
+                    Sometime after 1612, Shakespeare retired from the stage and returned to his home in Stratford. He drew up his will in January of 1616, which included his famous bequest to his wife of his "second best bed." He died on April 23, 1616, and was buried two days later at Stratford Church.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

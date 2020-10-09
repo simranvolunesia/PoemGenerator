@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.poem tr{
+    line-height: 1.5;
+}
+
+.body-class{
+    background-image: url("https://w8.foxdsgn.com/vestry/wp-content/uploads/2019/11/aboutbg.png");
+    background-position: center right;
+    background-size: contain;
+}
+
+header {
+		background: #c6c6c6;
+		background-image: url("https://w8.foxdsgn.com/vestry/wp-content/uploads/2019/11/home1bg.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding: 1%;
+}
+
+/* h1 elements should be centered and have a new font color */
+h1 {
+		text-align: center;
+		font-size: 40px;
+		position: relative;
+		top: -20px;
+		margin: 20px;
+		color: #ffffff;
+}
+
+h2 {
+		color: #000000;
+        text-align: center;
+		font-size: 25px;
+		color: #ffffff;
+}
+
+
+.left {
+		width: 30%;
+		float: left;
+		padding: 5% 0;
+}
+
+.left img {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+}
+
+/* The sections should be next to each other, not one on top of the other. */
+.right {
+		width: 68%;
+		display: inline-block;
+		padding-left: 2%;
+}
+
+table {
+	    border-collapse: collapse;
+   		width: 500px;
+   		margin: 10px;
+}
+
+body{
+    background: url("https://colorate.azurewebsites.net/SwatchColor/B6B6B6");
+	background-repeat: repeat-y;
+	background-size: 30%;
+}
+
+.except-class{
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.inner-form{
+    text-align: center;
+    margin: 20px;
+}
+
+input[type=submit]{
+    font-size: 20px;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.para{
+    text-align: justify;
+    padding: 50px;
+}
+
+
+
+
+
+
